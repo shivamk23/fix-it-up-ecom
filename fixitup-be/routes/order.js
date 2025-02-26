@@ -17,7 +17,7 @@ router.post("/send-order-confirmation", async (req, res) => {
     req.body;
   console.log(
     "buyerEmail",
-    buyerEmail,
+    buyerEmail, 
     "sellerEmail",
     sellerEmail,
     "orderDetails",
